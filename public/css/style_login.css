@@ -1,0 +1,214 @@
+
+#top-menu{
+  list-style: none;
+  background-color: #6f6f6f;
+  color:white;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border:1px solid white;
+  margin-top: 2px;
+  width:97.5%;
+  margin-right: 15px;
+}
+#top-menu li{
+  list-style: none;
+  float: right;
+  margin-left: 10px;
+  color: white;
+  border-left: 2px solid white;
+  padding-left: 15px;
+  padding-right: 10px;
+  height: 48px;
+  padding-top: 12px;
+  border-radius: 5px;
+}
+#top-menu li a{
+  text-decoration: none;
+  color: orange;
+}
+#top-menu li a:hover{
+  text-decoration: none;
+  color: white;
+  font-size: bold;
+}
+#content{
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.cheader{
+  width:100%;
+  height: 45px;
+  background-color:#d4d0d0;
+  border-radius: 5px 5px 0 0;
+  color:gray;
+  padding-top: 10px;
+  padding-right: 8px;
+}
+.cheader a{
+  text-decoration: none;
+  color:gray;
+}
+.cheader a:hover{
+  text-decoration: none;
+  color:gray;
+  font-weight: bold;
+}
+.cbody{
+  width:100%;
+  height: auto;
+  background-color:white;
+  border-radius: 0 0 0 0;
+  border:1px solid #e8e4e4;
+  padding-right: 45px;
+  padding-left: 45px;
+}
+.ccontent{
+  text-align: justify;
+  padding-bottom: 25px;
+  font-size:16px;
+}
+.cfooter{
+  width:100%;
+  height: 50px;
+  background-color:#d4d0d0;
+  border-radius: 0 0 5px 5px;
+  padding-top: 5px;
+  margin-bottom: 7px;
+}
+.cfooter a{
+  text-decoration: none;
+  color:gray;
+}
+.cfooter a:hover{
+  text-decoration: none;
+  color:gray;
+}
+.sheader{
+  width:100%;
+  height: 45px;
+  background-color:#d4d0d0;
+  border-radius: 5px 5px 0 0;
+  color:gray;
+  padding-top: 10px;
+  padding-right: 8px;
+  margin-top: 5px;
+}
+.sbody{
+  width:100%;
+  height: 400px;
+  height: auto;
+  background-color:white;
+  border-radius: 0 0 5px 5px;
+  border:1px solid #e8e4e4;
+  color:gray;
+  padding-top: 12px;
+  padding-right: 12px;
+}
+.sbody-option{
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.more{
+  width: 80px;
+  height: 30px;
+  color:gray;
+  background-color: white;
+  border:1px solid gray;
+  margin-right: 650px;
+  padding-top: 5px;
+  padding-right: 7px;
+  border-radius: 3px;
+}
+.more a{
+  text-decoration: none;
+  color: gray;
+  background-color: white;
+}
+.more a:hover{
+  color:black;
+  text-decoration: none;
+}
+.sabad-btn{
+  width:110px;
+  height:35px;
+  background-color:white;
+  border:1px solid #e8e4e4;
+  color:gray;
+  padding:7px;
+}
+.sbody a{
+  color:gray;
+  text-decoration: none;
+}
+.sbody a:hover{
+  color:gray;
+  text-decoration: none;
+}
+.sbody a:active{
+  color:gray;
+  text-decoration: none;
+}
+.sbody a:visited{
+  color:gray;
+  text-decoration: none;
+}
+.price-show{
+  width:150px;
+  height:35px;
+  background-color:gray;
+  border:1px solid white;
+  color:gray;
+  padding:7px;
+  border-radius: 5px;
+}
+.comment{
+  background-color:white;
+  border:2px solid #e8e4e4;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding:10px;
+  color:gray;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.subcomment1{
+  background-color:white;
+  margin-top:5px;
+  padding:5px;
+  border:1px solid #e8e4e4;
+  border-radius: 5px;
+}
+.subcomment2{
+  background-color:orange;
+  padding:5px;
+  color:white;
+  border-radius: 5px;
+}
+.subcomment3{
+  background-color:white;
+  margin-top:5px;
+  padding:5px;
+  color:gray;
+  border-radius: 5px;
+}
+.subcomment4{
+  background-color:#e8e4e4;
+  padding:5px;
+  border-radius: 5px;
+}
+.subcomment4 a{
+  text-decoration:none;
+  color:red;
+}
+.subcomment4 a:hover{
+  text-decoration:none;
+  color:red;
+  font-weight: bold;
+}
+.footer a{
+  color:orange;
+  text-decoration: none;
+}

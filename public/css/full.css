@@ -1,0 +1,166 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Bold-web.eot');
+
+    src: url('../fonts/IRANSans-Bold-web.eot?#iefix') format('eot'),  /* IE6?8 */
+    url('../fonts/IRANSans-Bold-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Bold-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-Bold-web.ttf') format('ttf');
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Medium-web.eot');
+
+    src: url('../fonts/IRANSans-Medium-web.eot?#iefix') format('eot'),  /* IE6?8 */
+    url('../fonts/IRANSans-Medium-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Medium-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-Medium-web.ttf') format('ttf');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-UltraLight-web.eot');
+
+    src: url('../fonts/IRANSans-UltraLight-web.eot?#iefix') format('eot'),  /* IE6?8 */
+    url('../fonts/IRANSans-UltraLight-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-UltraLight-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-UltraLight-web.ttf') format('ttf');
+    font-weight: 200;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Light-web.eot');
+
+    src: url('../fonts/IRANSans-Light-web.eot?#iefix') format('eot'),  /* IE6?8 */
+    url('../fonts/IRANSans-Light-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Light-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-Light-web.ttf') format('ttf');
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-web.eot');
+
+    src: url('../fonts/IRANSans-web.eot?#iefix') format('eot'),  /* IE6?8 */
+    url('../fonts/IRANSans-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-web.ttf') format('ttf');
+    font-weight: normal;
+}
+
+/* Set default body */
+body {
+    color: #333333;
+    /*font-family: "Open Sans", sans-serif;*/
+    font-family: 'IRANSans-web';
+    padding: 0px !important;
+    font-size: 13px;
+    direction: rtl;
+    margin-top: 30px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background:transparent;
+}
+
+/***************loading*******************/
+.loading{
+
+}
+.load-wrapp {
+    border-radius: 5px;
+    bottom: 0;
+    float: none;
+    height: 100px;
+    padding: 20px;
+    position: absolute;
+    right: 50%;
+    text-align: center;
+    top: 50%;
+    width: 200px;
+    z-index: 10000;
+}
+
+.load-wrapp p {
+    display:none;
+}
+.load-wrapp:last-child {margin-right: 0;}
+
+.line {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #0a6aa1;
+    margin:0 2px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+@keyframes loadingC {
+0 {transform: translate(0,0);}
+50% {transform: translate(0,35px);}
+100% {transform: translate(0,0);}
+}
+.load-3 .line:nth-last-child(1) {animation: loadingC .50s .1s linear infinite;}
+.load-3 .line:nth-last-child(2) {animation: loadingC .50s .2s linear infinite;}
+.load-3 .line:nth-last-child(3) {animation: loadingC .50s .3s linear infinite;}
+
+.load-3 .line:nth-last-child(4) {animation: loadingC .50s .4s linear infinite;}
+.load-3 .line:nth-last-child(5) {animation: loadingC .50s .5s linear infinite;}
+.load-3 .line:nth-last-child(6) {animation: loadingC .50s .6s linear infinite;}
+
+.overlay2 {
+    background:rgba(92, 92, 92, 0.4) none repeat scroll 0 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 14;
+}
+/**************end loading************/
+
+.full {
+    background: url('../img/main.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.panelbg{
+	background:rgba(59,22,58,0.4);
+	border-radius:5px;
+	color:#000;	
+	margin-bottom:10px;
+}
+input.btn.btn-lg {
+    width: 60%;
+    height: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+	margin-bottom:10px;
+}
+button.btn {
+    /*width: 40%;*/
+    /*height: 40px;*/
+    /*border-top-left-radius: 0;*/
+    /*border-bottom-left-radius: 0;*/
+	background:rgb(59,22,58);
+	color:white;
+	border:none;
+	margin-bottom:10px;
+    float: left;
+}
+button.btn:hover {
+	background:#731240;
+}
+
